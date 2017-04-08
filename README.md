@@ -1,2 +1,2 @@
 # rhythmstars
-a h5 game
+an H5 game
