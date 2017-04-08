@@ -1,4 +1,4 @@
-/*-----------ZYB 2013.2.13------------*/
+-----------ZYB 2013.2.13------------*/
 stars.screens["settings"] = (function() {
 	var game=stars.game;
 	var dom=stars.dom,$=dom.$;
@@ -27,10 +27,10 @@ stars.screens["settings"] = (function() {
 			}
 			globeMusic.playEffect('settings');//音效
 		});
-		dom.bind("#helper","click",function(e){
-			game.showScreen("help");
-			globeMusic.playEffect('settings');//音效
-		});
+		// dom.bind("#helper","click",function(e){
+		// 	game.showScreen("help");
+		// 	globeMusic.playEffect('settings');//音效
+		// });
 		dom.bind("#reset","click",function(e){
 			volume.value = 0.5;//重置音量调节
 			soundEffect.value = 0.5;
@@ -50,4 +50,4 @@ stars.screens["settings"] = (function() {
        run : run
     };
 })();
-/*-------------------------------*/
+/*-------------------------------
