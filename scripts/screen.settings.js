@@ -1,4 +1,3 @@
------------ZYB 2013.2.13------------*/
 stars.screens["settings"] = (function() {
 	var game=stars.game;
 	var dom=stars.dom,$=dom.$;
@@ -16,17 +15,17 @@ stars.screens["settings"] = (function() {
         });
 		
 		/*---------RTF 2013.5.16-------*/
-		dom.bind("#language","click",function(e){
-			if(language == "E"){
-				$("#language")[0].innerHTML = "中文/English";
-				language =　"C";
-			}
-			else{
-				$("#language")[0].innerHTML = "English/中文";
-				language =　"E";
-			}
-			globeMusic.playEffect('settings');//音效
-		});
+		// dom.bind("#language","click",function(e){
+		// 	if(language == "E"){
+		// 		$("#language")[0].innerHTML = "中文/English";
+		// 		language =　"C";
+		// 	}
+		// 	else{
+		// 		$("#language")[0].innerHTML = "English/中文";
+		// 		language =　"E";
+		// 	}
+		// 	globeMusic.playEffect('settings');//音效
+		// });
 		// dom.bind("#helper","click",function(e){
 		// 	game.showScreen("help");
 		// 	globeMusic.playEffect('settings');//音效
@@ -50,4 +49,3 @@ stars.screens["settings"] = (function() {
        run : run
     };
 })();
-/*-------------------------------
