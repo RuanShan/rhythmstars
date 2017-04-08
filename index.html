@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+<title>Rhythm Stars</title>
+<link rel="stylesheet" href="styles/fontfaces.css"/>
+<link rel="stylesheet" href="styles/animation.css" />
+<link rel="stylesheet" href="styles/main.css" />
+<link rel="stylesheet" href="styles/mobile.css" media="screen and (max-device-width:768px) and (orientation:portrait), screen and (max-device-width:1024px) and (orientation:landscape)"/>
+
+<link rel="apple-touch-icon-precomposed" href="images/ios-icon.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ios-icon-ipad.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ios-icon-iphone4.png"/>
+
+<link rel="apple-touch-startup-image" href="images/ios-startup-748x1024.png" media="screen and (min-device-width:768px) and (orientation:landscape)"/>
+<link rel="apple-touch-startup-image" href="images/ios-startup-768x1004.png" media="screen and (min-device-width:768px) and (orientation:portrait)"/>
+<link rel="apple-touch-startup-image" href="images/ios-startup-320x460.png" media="screen and (max-device-width:320px)"/>
+
+<script type="application/javascript" src="scripts/modernizr.js"></script>
+<script type="application/javascript" src="scripts/loader.js"></script>
+</head>
+
+
+<body>
+
+<div id="game">
+<div class="background"></div>
+
+<div class="screen" id="install-screen">
+<img class="logo" src="images/GameLogo.png"/>
+<span>Click the <img src="images/install-icon.png" alt="Install icon"/> button to install the game to your home screen.</span>
+</div>
+
+<div class="screen" id="splash-screen">
+<img class="logo" src="images/GameLogo.png"/>
+<span class="continue">Click to continue</span>
+<div class="progress">
+<div class="indicator"></div>
+</div>
+</div>
+
+<div class="screen" id="main-menu">
+<ul class="menu">
+<li><button name="game-screen" id="NewGame"></button>
+<li><button name="high-score" id="HighScore"></button>
+<li><button name="settings" id="Settings"></button>
+<li><button name="about" id="About"></button>
+<!--/*-----------ZYB 2013.2.13------------*/-->
+<!--<li><button name="exit-screen">Exit</button>-->
+<!--/*------------------------------------*/-->
+</ul>
+</div>
+
+<div class="screen" id="new_game-menu"></div>
+
+
+<!--/*-----------ZYB 2013.2.13------------*/-->
+<div class="screen" id="settings">
+<table>
+<tr>
+<td><img class="sound" src="images/Effect.png"/></td>
+<td><input type="range" id="sound-effect" min="0" max="1" step="0.02" value="0.50" /></td>
+</tr>
+<tr>
+<td><img class="sound" src="images/Volume.png"/></td>
+<td><input type="range" id="volume"  min="0" max="1" step="0.02" value="0.50" /></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4"><button id="language">English/中文</button></td><!--5.19-->
+</tr>
+<tr>
+<td colspan="4"><button name="reset-game" id="reset">RESET GAME</button></td><!--5.16-->
+</tr>
+<tr>
+<td colspan="4"><button name="help" id="helper">HELP</button></td><!--5.16-->
+</tr>
+</table>
+<footer><button class="back"></button></footer>
+</div>
+
+<!-------------RTF 2013.5.16-------------->
+<div class="screen" id="help">
+</div>
+<!---------------------------------------->
+
+<div class="screen" id="about">
+<article>
+<h3 style="color:rgb(173,189,192);">LEGAL NOTICES</h3>
+<p>COPYRIGHT&copy; 2012-2013 HTML TEAM. ALL　RIGHTS RESERVED. </p>
+<h3 style="color:rgb(173,189,192);">TEAM REMEMBER</h3>
+<p>TIANFU REN; TIANYU ZHAO; YUBO ZHANG;</p>
+<h3 style="color:rgb(173,189,192);">GUIDANCE TEACHER</h3>
+<p>SIBO YANG</p>
+<h3 style="color:rgb(173,189,192);">SPECIAL　THANKS</h3>
+<p>TIAN JIN UNIVERSITY</p>
+<p>BANG AN</p>
+</article> 
+</div>
+
+
+<!--/*------------------------------------*/-->
+<div class="screen" id="high-score"></div>
+
+<div class="screen" id="game-screen">
+
+<!---JZH--->
+<div class="options-space">
+	<div class="game-options">
+    	<button class="level" id="a"></button>
+        <button class="level" id="b"></button>
+        <button class="level" id="c"></button>
+              
+         <button class="back" name="back"></button>
+    </div>    
+</div>
+
+<div id="pause-screen"><!--+++++++++++++++++++-->
+	<p class="pause-score" id="pause-score"></p>
+    <button class="resume"></button>
+    <button class="retry"></button>
+    <button class="menu"></button>
+</div>
+
+<div class="game-space" style="display:none">
+	<!--<span class="userscore">Score:</span>-->
+    <div class="pause" name="pause"></div>
+</div>
+<!--/*------------------------------------*/-->
+
+<div class="game-space"></div>
+</div>
+
+<div id="musicalNode-proto" class="musicalNode-size"></div>
+
+</div>
+
+</body>
+</html>

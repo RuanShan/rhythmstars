@@ -1,0 +1,39 @@
+/*--------------------------------animation------------------------*/
+/*-----------ZYB 2013.2.13------------*/
+@-webkit-keyframes settings-font {
+0%{ color:rgb(173,189,192);
+}
+50%{color:rgb(0,102,255);
+}
+100%{color:rgb(173,189,192);
+} 
+}
+@keyframes settings-font {
+0%{color:rgb(173,189,192,1);
+}
+50%{color:rgb(173,189,192,0.5);
+}
+100%{color:rgb(173,189,192,1);
+} 
+}
+@-webkit-keyframes about-rotate {
+0%{
+	padding-top:10em;
+	-webkit-transform: perspective(850px) rotateY(0deg);
+}
+100%{
+	padding-top:0em;
+	-webkit-transform: perspective(850px) rotateY(360deg);
+} 
+}
+@keyframes about-rotate {
+0%{
+	padding-top:10em;
+	transform: perspective(850px) rotateY(0deg);
+}
+100%{
+	padding-top:0em;
+	transform: perspective(850px) rotateY(360deg);
+} 
+}
+/*--------------------------------------*/

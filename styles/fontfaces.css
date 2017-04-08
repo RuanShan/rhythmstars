@@ -1,0 +1,70 @@
+@font-face{
+	font-family:"Fredoka_One";
+	font-weight:normal;
+	font-style:normal;
+	src:url(../fonts/Fredoka_One/fredokaone-regular-webfont.woff) format("woff"),
+	url(../fonts/Fredoka_One/FredokaOne-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Press_Start_2P";/*Game Screen*/
+	font-weight:normal;
+	font-style:normal;
+	src:url(../fonts/Press_Start_2P/pressstart2p.woff) format("woff"),
+	url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Caesar_Dressing";/*Pause Screen*/
+	font-weight:normal;
+	font-style:normal;
+	src:url(../fonts/Caesar_Dressing/caesardressing-regular-webfont.woff) format("woff"),
+	url(../fonts/Caesar_Dressing/CaesarDressing-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Broken_Glass";/*HighScores Screen*/
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/Broken_Glass/Broken-Glass.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Friday";/*Splash Screen*/
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/Friday/Friday.ttf) format("truetype");
+}
+@font-face{
+	font-family:"ft80";/*About Screen*/
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/ft80/ft80.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Grunge_Puddles";
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/Grunge_Puddles/Grunge-Puddles.ttf) format("truetype");
+}
+@font-face{
+	font-family:"Bubblegum_Superstar";
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/Bubblegum_Superstar/Bubblegum-Superstar.ttf) format("truetype");
+}
+@font-face{
+	font-family:"GraphicAttitude_Mono";
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/GraphicAttitude_Mono/GraphicAttitude-Mono.ttf) format("truetype");
+}
+@font-face{
+	font-family:"NiseSonicShuffle";
+	font-weight:normal;
+	font-style:normal;
+	src:
+	url(../fonts/NiseSonicShuffle/NiseSonicShuffle.ttf) format("truetype");
+}
